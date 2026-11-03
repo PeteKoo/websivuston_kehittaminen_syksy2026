@@ -1,17 +1,16 @@
      h1 {
       color: rgb(7, 19, 147);
+      font-size: 2em;
     }
 
     p {
       color: blue;
     }
-  #grad {
-  background-image: linear-gradient(to right, rgb(208, 250, 246) , rgb(169, 248, 239));
-}
-    
-    h1 {
-      font-size: 2em;
+
+    body {
+      background-color: rgb(208, 250, 246);
     }
+
     div {
   padding-top: 50px;
   padding-right: 30px;
@@ -67,7 +66,7 @@ table {
     input[type="submit"]:hover {
       background-color: #45a049;
     }
-    borderimg {
+    img {
   border: 10px solid transparent; /* Required for border-image */
   padding: 15px;
   border-image: url(Dogit.jpg) 30 round;
