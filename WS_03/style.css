@@ -76,7 +76,6 @@ table {
       
       .transition-button:hover {
         background-color: lightcoral;
-        align-items: center;
       }
       .animation-box {
         width: 50px;
@@ -84,7 +83,6 @@ table {
         background-color: lightgreen;
         position: relative;
         animation: move 2s infinite alternate;
-        align-items: center;
       }
       
       @keyframes move {
@@ -114,3 +112,22 @@ table {
         text-align: center;
       }
       .img
+      .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '->';
+        font-size: 20px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: rgb(121, 18, 18);
+      }
