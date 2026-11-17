@@ -109,14 +109,16 @@
        background-color: white;
      }
 
-     .filter-image {
-       filter: grayscale(100%);
-       transition: filter 0.3s ease;
-     }
+     .responsive-image {
+    max-width: 40%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
 
-     .filter-image:hover {
-       filter: grayscale(0%);
-     }
+.responsive-image:hover {
+    filter: grayscale(0%);
+}
 
      h1 {
        text-align: center;
