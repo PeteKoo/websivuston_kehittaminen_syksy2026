@@ -193,6 +193,16 @@
       flex: 1;
       padding: 10px;
     }
+
+    .column:first-child {
+    background-color: #101310; /* vihreä */
+    color: white;
+}
+
+.column:last-child {
+    background-color: #2196F3; /* sininen */
+    color: white;
+}
     
     @media (max-width: 600px) {
       .column {
